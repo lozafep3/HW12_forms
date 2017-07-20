@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    font-size: 18px;
+}
+body {
+    background: #74c35a;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    color: #bbbbbb;
+}
+form {
+    width: 493px;
+    height: 393px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 182px;
+    padding-top: 60px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+input {
+    width: 370px;
+    height: 63px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 21px;
+    background: #f2f2f2;
+    border: none;
+}
+input::-webkit-input-placeholder {
+    color: #bbbbbb;
+}
+#username, #password {
+    padding-left: 20px;
+}
+#login {
+    background: #00b242;
+    color: white;
+    border: none;
+}
+p {
+    text-align: center;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: #74c35a;
+    font-size: 16px;
+}
