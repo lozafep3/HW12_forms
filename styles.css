@@ -32,7 +32,7 @@ body {
     color: #bbbbbb;
 }
 
-#c-form__submit {
+.button {
     background: #00b242;
     color: white;
     border: none;
@@ -47,4 +47,8 @@ body {
     text-decoration: none;
     color: #74c35a;
     font-size: 16px;
+}
+
+.invalid {
+    background: rgba(128, 0, 0, 0.50);
 }
