@@ -26,10 +26,8 @@ submit.onclick = function() {
 
 function checkLocalStorage() {
     if (typeof localStorage !== 'undefined') {
-        localStorage.setItem("username", username.value);
-        localStorage.setItem("password", password.value);
+        localStorage.setItem(username.value, password.value);
     } else {
-        document.cookie = 'username=' + username.value;
-        document.cookie = 'password=' + password.value;
+        document.cookie = username.value +'='+ password.value;
     }
 }
